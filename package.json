@@ -1,5 +1,5 @@
 {
-  "name": "js-assert",
+  "name": "jsassert",
   "version": "1.0.0",
   "description": "Capture errors in production code without the bloat - assert!",
   "main": "index.js",

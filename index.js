@@ -4,7 +4,7 @@
     if (isNode) {
         module.exports = assertFactory();
     } else {
-        window.jsAssert = assertFactory();
+        window.jsassert = assertFactory();
     }
 })(function () {
     return function (assertion, customErrorMessage) {
