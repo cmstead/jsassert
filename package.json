@@ -4,7 +4,8 @@
   "description": "Capture errors in production code without the bloat - assert!",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/nyc/bin/nyc ./node_modules/mocha/bin/mocha ./tests/**/*.test.js"
+    "test": "node ./node_modules/nyc/bin/nyc ./node_modules/mocha/bin/mocha ./tests/**/*.test.js",
+    "build-readme": "node ./booklisp/index ./readme/readme.md ./README.md"
   },
   "keywords": [
     "assert",
@@ -16,6 +17,7 @@
   "author": "Chris Stead",
   "license": "MPL-2.0",
   "devDependencies": {
+    "booklisp": "^1.7.3",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
     "nyc": "^14.0.0"
